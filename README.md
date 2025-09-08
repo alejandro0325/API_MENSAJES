@@ -1,20 +1,19 @@
 #  Proyecto: Mensajes API
 
-## Este proyecto desarrolla una API REST para la gestion de mensajes en sesiones de usuario 
+Este proyecto desarrolla una API REST para la gestion de mensajes en sesiones de usuario. Facilita la creación, el procesamiento y la recuperación de mensajes que se encuentran en una base de datos SQLite.
 
-Facilita la creación, el procesamiento y la recuperación de mensajes que se encuentran en una base de datos SQLite
+# Características fundamentales
 
-Características fundamentales: - Comprobación de datos mediante Pydantic. 
--Gestion de mensajes con metadatos automaticos (numero de palabras, caracteres, timestamp).
--Filtrado de contenido no adecuado a través de un catálogo de términos prohibidos. 
--Persistencia utilizando SQLAlchemy y SQLite. 
--Documentación automatizada con Swagger UI.
--Test unitarias con pytest.
+-Comprobación de datos mediante Pydantic 
+-Gestion de mensajes con metadatos automaticos (numero de palabras, caracteres, timestamp)
+-Filtrado de contenido no adecuado a través de un catalogo de terminos prohibidos
+-Persistencia utilizando SQLAlchemy y SQLite
+-Test unitarias con pytest
 
 # Instrucciones para la configuracion
 
 1. Clonar repositorio.
-2. Crear un entorno virtual.
+2. Crear un entorno virtual
 3. Instalar dependecias del archivo: pip install -r requirements.txt
 4. Ejecutar la API con: uvicorn app.main:app --reload
 5. la API estara disponible en http://127.0.0.1:8000
